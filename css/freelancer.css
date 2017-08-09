@@ -158,7 +158,7 @@ header .intro-text .skills {
 
 #student-reviews{
   background-color: #ecedef;
-  background-image: url("../images/twitter-bg.jpg");
+  background-image: url("../img/twitter-bg.jpg");
   background-position: center bottom;
   background-size: cover;
   background-repeat:no-repeat;
@@ -326,7 +326,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    /*padding: 25px 0;*/
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -338,7 +338,7 @@ header .intro-text .skills {
     transition: all 0.3s;
   }
   .navbar-custom.affix {
-    padding: 10px 0;
+    /*padding: 10px 0;*/
       
   }
   .navbar-custom.affix .navbar-brand {
