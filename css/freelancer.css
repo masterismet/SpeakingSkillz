@@ -288,7 +288,7 @@ header {
 }
 
 .panel-title {
-    font-size: 14px;
+    font-size: 1.15em;
 }
 
     .panel-title > a:hover {
@@ -309,8 +309,8 @@ header {
 }
 
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
-    color: #142948;
-    ;
+    color:#142948; 
+    font-size:1.15em;   
     border-top-color: #EEEEEE;
 }
 
@@ -744,7 +744,11 @@ footer {
         line-height: 28px;
     }
 
-.portfolio-modal .modal-content {
+.portfolio-modal{
+ position: absolute !important;
+}
+
+.portfolio-modal .modal-content {       
     border-radius: 0;
     background-clip: border-box;
     -webkit-box-shadow: none;
