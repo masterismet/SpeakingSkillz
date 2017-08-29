@@ -856,12 +856,22 @@ div#maincontent {
 }
 
 @media screen and (max-width: 600px) {
-  
-  .navbar-custom .navbar-brand img {
-            max-width: 60%;
-             margin-top:-50px;           
-        }
+
+    .navbar-custom .navbar-brand img {
+        max-width: 60%;
+        margin-top: -50px;
+    }
     #mainNav {
         max-height: 10%;
     }
+    #maincontent{   
+     width:100%;
+     background-image: url('../img/skillz background-mobile.jpg');
+     background-repeat:no-repeat;
+}
+
+
+    
+
+
 }
