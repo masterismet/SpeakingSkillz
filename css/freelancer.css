@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: 'CaviarDreams_Bold'; /*a name to be used later*/
-   src: url("../fonts/custumFontsTr/Segoe UI Bold.ttf"); /*URL to font*/
+    src: url("../fonts/custumFontsTr/Segoe UI Bold.ttf"); /*URL to font*/
 }
 
 
@@ -100,11 +100,10 @@ header {
     text-align: center;
     /*background: #18BC9C;
 */ color: white;
-    
     margin-top: 100px;
 }
 
-    header .container {       
+    header .container {
         padding-top: 100px;
         padding-bottom: 30px;
     }
@@ -132,9 +131,9 @@ header {
     border-bottom: thick;
 }
 
-#maincontent{   
-     width:100%;
-     background-image: url('../img/skillzbackground3.jpg');
+#maincontent {
+    width: 100%;
+    background-image: url('../img/skillzbackground3.jpg');
 }
 
 #course-details {
@@ -145,7 +144,7 @@ header {
     background-color: #FBFBFB;
 }
 
-#slideshow {   
+#slideshow {
     position: relative;
     margin: 40px auto;
     width: 100%;
@@ -155,7 +154,7 @@ header {
 }
 
     #slideshow .carousel-caption {
-        margin-bottom:10%;
+        margin-bottom: 10%;
         font-size: 1.5em;
         color: #2C3E50;
     }
@@ -238,33 +237,35 @@ header {
 
     #twitter-feed .item a,
     #twitter-feed .item p {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 300;
         /*font-family: 'Yanone Kaffeesatz','sans-serif';*/
     }
 
     #twitter-feed .item p {
-        color:#142948;
+        color: #142948;
     }
 
     #twitter-feed .item a {
-        color:#142948;
+        color: #142948;
     }
 
 .twitter-control-left,
 .twitter-control-right {
     position: absolute;
-    color:#142948;
+    color: #142948;
     top: 59%;
     font-size: 24px;
 }
 
 .twitter-control-left {
     left: 0;
+    top: calc(50% - 10px);
 }
 
 .twitter-control-right {
     right: 0;
+    top: calc(50% - 10px);
 }
 
 .panel-group .panel {
@@ -304,8 +305,8 @@ header {
 }
 
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
-    color:#142948; 
-    font-size:1.15em;   
+    color: #142948;
+    font-size: 1.15em;
     border-top-color: #EEEEEE;
 }
 
@@ -355,7 +356,7 @@ header {
         .navbar-custom .navbar-nav li a {
             padding-top: 1px;
             padding-bottom: 15px;
-            color: #213552;            
+            color: #213552;
         }
 
             .navbar-custom .navbar-nav li a:hover {
@@ -385,7 +386,7 @@ header {
         .navbar-custom .navbar-toggle:focus {
             background-color: #213552;
             color: white;
-            border-color: #213552;           
+            border-color: #213552;
         }
 
 @media (min-width: 768px) {
@@ -468,47 +469,47 @@ section {
         margin: 0 auto;
     }
 
-     .portfolio-item .img-responsive  {        
-         margin: 0 auto;
+.portfolio-item .img-responsive {
+    margin: 0 auto;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    background: rgba(24, 188, 156, 0.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+
+    #portfolio .portfolio-item .portfolio-link .caption:hover {
+        opacity: 1;
     }
 
-        #portfolio .portfolio-item .portfolio-link .caption {
-            background: rgba(24, 188, 156, 0.9);
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            opacity: 0;
-            transition: all ease 0.5s;
-            -webkit-transition: all ease 0.5s;
-            -moz-transition: all ease 0.5s;
+    #portfolio .portfolio-item .portfolio-link .caption .caption-content {
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        font-size: 20px;
+        top: 50%;
+        margin-top: -12px;
+        color: white;
+    }
+
+        #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+            margin-top: -12px;
+            float: left;
         }
 
-            #portfolio .portfolio-item .portfolio-link .caption:hover {
-                opacity: 1;
-            }
-
-            #portfolio .portfolio-item .portfolio-link .caption .caption-content {
-                position: absolute;
-                width: 100%;
-                height: 20px;
-                font-size: 20px;                
-                top: 50%;
-                margin-top: -12px;
-                color: white;
-            }
-
-                #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-                    margin-top: -12px;
-                    float: left;
-                }
-
-                #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-                #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-                    margin: 0;
-                }
+        #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+        #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+            margin: 0;
+        }
 
 .lesson-formate-header {
-    padding: 4px;    
+    padding: 4px;
     width: 100%;
     color: #142948;
     font-size: 21px;
@@ -519,8 +520,8 @@ section {
     z-index: 2;
 }
 
-.caption-content{
-    text-align:center;   
+.caption-content {
+    text-align: center;
 }
 
 @media (min-width: 767px) {
@@ -673,8 +674,8 @@ footer {
 
 .btn-success {
     color: white;
-    background-color: #18BC9C;
-    border-color: #18BC9C;
+    background-color: #152a48;
+    border-color: #152a48;
     font-weight: 700;
 }
 
@@ -746,27 +747,27 @@ footer {
         line-height: 28px;
     }
 
-.portfolio-modal{
- position: absolute !important;
+.portfolio-modal {
+    position: absolute !important;
 }
 
-.portfolio-modal .modal-content {       
-    border-radius: 0;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border: none;
-    min-height: 100%;
-    padding: 100px 0;
-}
-
-    .portfolio-modal .modal-content h2 {
-        color: #142948;
-        font-size: 2.5em;
-        margin-top: 1em;
-        margin-bottom: 0.5em;
-        text-align: center;
+    .portfolio-modal .modal-content {
+        border-radius: 0;
+        background-clip: border-box;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: none;
+        min-height: 100%;
+        padding: 100px 0;
     }
+
+        .portfolio-modal .modal-content h2 {
+            color: #142948;
+            font-size: 2.5em;
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+            text-align: center;
+        }
 
 portfolio-modal .modal-content strong {
     margin-left: 2em;
@@ -855,23 +856,116 @@ div#maincontent {
     outline: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 736px) and (min-device-width: 601px) {
+
+    .navbar-custom .navbar-toggle {
+        margin-right: -15%;
+        margin-top: 5%;
+    }
 
     .navbar-custom .navbar-brand img {
-        max-width: 60%;
-        margin-top: -50px;
+        max-width: 50%;
+        margin-top: -10%;
     }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .section {
+        padding: 10px 0;
+    }
+
     #mainNav {
         max-height: 10%;
     }
-    #maincontent{   
-     width:100%;
-     background-image: url('../img/skillz background-mobile.jpg');
-     background-repeat:no-repeat;
+
+    #maincontent {
+        width: 100%;
+        max-height: 297px;
+        background-image: url('../img/skillz background-mobile.jpg');
+        background-repeat: no-repeat;
+    }
+
+    .navbar .navbar-default .navbar-fixed-top .navbar-custom .affix-top {
+        max-height: 297px;
+    }
+
+    .twit img {
+        display: none;
+    }
+
+    .header-container {
+        max-height: 84px;
+        background-color: white;
+    }
+
+    #bs-example-navbar-collapse-1 {
+        background-color: white;
+        margin-top: -1.5%;
+    }
+
+    .header-container .navbar-brand {
+        height: 0px;
+        margin-top: -10%;
+    }
+
+    .portfolio-item .img-responsive {
+        margin: 1% auto 10%;
+        max-width: 30%;
+    }
 }
 
-    .twit img{
-        display:none;
+
+
+
+
+@media screen and (max-width: 667px) and (min-device-width: 569px) {
+
+    .navbar-custom .navbar-toggle {
+        margin-right: -15%;
+        margin-top: 7%;
     }
-    
+
+    .navbar-custom .navbar-brand img {
+        max-width: 50%;
+        margin-top: -10%;
     }
+}
+
+
+@media screen and (max-width: 568px) and (min-device-width: 321px) {
+
+    .navbar-custom .navbar-toggle {
+        margin-right: -20%;
+        margin-top: 8%;
+    }
+
+    .navbar-custom .navbar-brand img {
+        max-width: 50%;
+        margin-top: -3%;
+    }
+
+    #maincontent {
+        width: 100%;
+        max-height: 297px;
+        background-image: url('../img/skillzbackground-iphone.jpg');
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header-container .pull-left {
+        font-size: 0.8em;
+    }
+
+    .navbar-custom .navbar-toggle {
+        margin-right: -40%;
+        margin-top: 13%;
+    }
+
+    .navbar-custom .navbar-brand img {
+        max-width: 60%;
+        margin-top: -8%;
+    }
+}
