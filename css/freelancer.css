@@ -240,7 +240,7 @@ header {
     #twitter-feed .item p {
         font-size: 24px;
         font-weight: 300;
-        font-family: 'Yanone Kaffeesatz','sans-serif';
+        /*font-family: 'Yanone Kaffeesatz','sans-serif';*/
     }
 
     #twitter-feed .item p {
@@ -870,8 +870,8 @@ div#maincontent {
      background-repeat:no-repeat;
 }
 
-
+    .twit img{
+        display:none;
+    }
     
-
-
-}
+    }
